@@ -31,7 +31,7 @@ class WinOrLoseCard extends Component {
           </button>
         </div>
         <div className="winOrLose-image-container">
-          <img className="win-or-lose-image" src={imageURL} alt={altText} />
+          <img className="win-or-lose-image" src={imageURL} alt="win or lose" />
         </div>
       </div>
     )
