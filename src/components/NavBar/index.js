@@ -14,10 +14,10 @@ class NavBar extends Component {
     return (
       <div className="Score-container">
         <p className="score-label">
-          Score : <span className="score-value">{currentScore}</span>
+          Score : {currentScore}
         </p>
         <p className="score-label">
-          Total Score : <span className="score-value">{topScore}</span>
+          Total Score : {topScore}
         </p>
       </div>
     )
